@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robxu | Login</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="font.css" />
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a class="navbar-brand" href="https://robxu.glitch.me">Robxu.me</a>
+      <a href="https://robxu.glitch.me">Home</a>
+      <a href="purchase.html">Purchase</a>
+      <a href="#contact">Earn</a>
+      <a href="">Faucet</a>
+      <a href="">Withdraw</a>
+      <a href="#about">Discord</a>
+      <div class="topnav-right">
+        <a href="login.html" class="active">Login</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <br />
+    <br />
+    <div class="login">
+      <p>do the epic login here</p>
+
+      <input type="username" placeholder="Username" />
+      <br />
+      <br />
+      <input type="password" placeholder="Password" />
+      <br />
+      <br />
+      <input type="checkbox" name="rememberme" />
+      <label>Remember me</label>
+      <br />
+      <br />
+
+      <button class="sign-in">Sign in</button>
+
+      <div class="extra-buttons">
+        <div class="extra-buttons">
+          <button class="extra-buttons-1">Register</button>
+        </div>
+        <button>Forgot Password</button>
+      </div>
+    </div>
+  </body>
+</html>
